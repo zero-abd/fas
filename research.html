@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/vendors.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="android-chrome-192x192.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>Falcon Academy of Sciences</title>
+</head>
+
+<body class="preloader-visible" data-barba="wrapper">
+
+
+  <!-- preloader start -->
+  <div class="preloader js-preloader">
+    <div class="preloader__bg"></div>
+
+    <div class="preloader__progress">
+      <div class="preloader__progress__inner"></div>
+      <img src="img/general/loader.svg" alt="preloader image" class="preloader__img">
+    </div>
+  </div>
+  <!-- preloader end -->
+
+
+  <!-- cursor start -->
+  <div class="cursor js-cursor">
+    <div class="cursor__wrapper">
+      <div class="cursor__follower js-follower"></div>
+      <div class="cursor__label js-label"></div>
+      <div class="cursor__icon js-icon"></div>
+    </div>
+  </div>
+  <!-- cursor end -->
+
+
+  <!-- barba container start -->
+  <div class="barba-container" data-barba="container">
+
+    <!-- to-top-button start -->
+    <div data-cursor class="backButton js-backButton">
+      <span class="backButton__bg"></span>
+      <div class="backButton__icon__wrap">
+        <i class="backButton__button js-top-button" data-feather="arrow-up"></i>
+      </div>
+    </div>
+    <!-- to-top-button end -->
+
+
+    <main class="">
+
+
+      <!-- header start -->
+      <header class="header -light -sticky-light js-header-light -classic js-header">
+        <!-- header__bar start -->
+        <div class="header__bar">
+          <div class="overflow-hidden">
+            <div class="header__logo js-header-logo">
+              <a data-barba href="index.html">
+                <img class="header__logo__light" src="img/logo/logo-light.png" alt="logo">
+              </a>
+              <a data-barba href="index.html">
+                <img class="header__logo__dark" src="img/logo/logo-dark.png" alt="logo">
+              </a>
+            </div>
+          </div>
+
+          <div class="navClassic-wrap js-header-menu-classic">
+            <ul class="navClassic-list js-navClassic-list">
+                <li>
+                  <a data-barba href="index.html">Home</a>
+                </li>
+                <!-- <li>
+                  <a data-barba href="index.html">Newsletter</a>  
+                </li> -->
+                <li>
+                  <a data-barba href="about.html">About</a>
+                </li>
+                <li class="menu-item-has-children">
+                  <a>Research Programs</a>
+
+                  <ul class="subnav-list">
+                    <li>
+                      <a data-barba href="research.html">Research Programs</a>
+                    </li>
+                    <li>
+                      <a data-barba href="pastresearch.html">Past Research Programs</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- <li>
+                  <a data-barba href="index.html">Research Workshops</a>
+                </li>
+                <li>
+                  <a data-barba href="index.html">Admissions & Aid</a>
+                </li>
+                <li>
+                  <a data-barba href="index.html">Features</a>
+                </li> -->
+                <li>
+                  <a data-barba href="contact.html">Contact</a>
+                </li>
+                <li>
+                  <a data-barba href="https://hire.falconacademyofsciences.org ">Join Us</a>
+                </li>
+                  
+            </ul>
+          </div>
+
+          <div class="header__menu__wrap overflow-hidden">
+            <div class="header__menu js-header-menu">
+              <button type="button" class="nav-button-open js-nav-open">
+                <i class="icon" data-feather="menu"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- header__bar end -->
+
+
+        <!-- nav start -->
+        <nav class="nav js-nav">
+          <div class="nav__inner js-nav-inner">
+            <div class="nav__bg js-nav-bg"></div>
+
+            <div class="nav__container">
+              <div class="nav__header">
+                <button type="button" class="nav-button-back js-nav-back">
+                  <i class="icon" data-feather="arrow-left-circle"></i>
+                </button>
+
+                <button type="button" class="nav-btn-close js-nav-close pointer-events-none">
+                  <i class="icon" data-feather="x"></i>
+                </button>
+              </div>
+
+              <div class="nav__content">
+                <div class="nav__content__left">
+                  <div class="navList__wrap">
+                    <ul class="navList js-navList">
+                      <li>
+                        <a data-barba href="index.html">Home</a>
+                      </li>
+                      <li>
+                        <a data-barba href="about.html">About</a>
+                      </li>
+
+                      <li class="menu-item-has-children">
+                        <a>Research Programs</a>
+
+                        <ul class="subnav-list">
+                          <li>
+                            <a data-barba href="research.html">Research Programs</a>
+                          </li>
+                          <li>
+                            <a data-barba href="pastresearch.html">Past Research Programs</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <!-- <li>
+                        <a data-barba href="index.html">Research Workshops</a>
+                      </li>
+                      <li>
+                        <a data-barba href="index.html">Admissions & Aid</a>
+                      </li>
+                      <li>
+                        <a data-barba href="index.html">Features</a>
+                      </li> -->
+                      <li>
+                        <a data-barba href="index.html">Contact</a>
+                      </li>
+                      <li>
+                        <a data-barba href="index.html">Join Us</a>
+                      </li>
+
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="nav__content__right">
+                  <div class="nav__info">
+                    <div class="nav__info__item js-navInfo-item">
+                      <h5 class="text-sm tracking-none fw-500">
+                        Address
+                      </h5>
+
+                      <div class="nav__info__content text-lg text-white mt-16">
+                        <p>
+                          Tallabag Road, Dhanmondi, Dhaka, Bangladesh
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="nav__info__item js-navInfo-item">
+                      <h5 class="text-sm tracking-none fw-500">
+                        Socials
+                      </h5>
+
+                      <div class="nav__info__content text-lg text-white mt-16">
+                        <a href="#">Facebook</a>
+                        <a href="#">Linkedin</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Twitter</a>
+                      </div>
+                    </div>
+
+                    <div class="nav__info__item js-navInfo-item">
+                      <h5 class="text-sm tracking-none fw-500">
+                        Contact Us
+                      </h5>
+
+                      <div class="nav__info__content text-lg text-white mt-16">
+                        <a href="#">info@falconacademyofsciences.com</a>
+                        <a href="#">+880 1772253459</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- nav end -->
+      </header>
+      <!-- header end -->
+
+
+      <section class="masthead -type-1 js-masthead-type-1 js-shapes">
+        <!-- shapes start -->
+        <div class="masthead-shapes -group-4">
+          <div class="masthead-shapes__item -item-1">
+            <div class="masthead-shapes__shape -white -shadow-light js-shape"></div>
+          </div>
+          <div class="masthead-shapes__item -item-2">
+            <div class="masthead-shapes__shape -white -shadow-light js-shape"></div>
+          </div>
+        </div>
+        <!-- shapes end -->
+
+        <!-- container start -->
+        <div class="container-fluid">
+          <div class="masthead__content layout-pt-sm z-3">
+            <!-- row start -->
+            <div class="row justify-content-center">
+              <div class="col-xl-8 offset-xl-1 col-lg-9 offset-lg-1 col-md-9 sm:px-24">
+                <div data-split="lines" data-split-page-reveal>
+                  <h1 class="masthead__title fw-700 js-title">
+                    FAS Summer <br>
+                    Research Program
+                  </h1>
+                </div>
+
+                <p class="masthead__text mt-40 md:mt-32 sm:mt-24 js-text">
+                  Our vision is building a community where next generation of researchers are fostered
+                </p>
+
+                <div class="masthead__button mt-40 sm:mt-32 js-button">
+                  <a href="#pastprograms" class="button -md  -black text-white">
+                    Past Programs
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- row end -->
+          </div>
+        </div>
+        <!-- container end -->
+
+        <!-- ui-element start -->
+        <div class="ui-element -bottom-left sm:d-none js-ui">
+          <button type="button" class="ui-element__scroll js-ui-scroll-button">
+            scroll down
+            <i class="icon" data-feather="arrow-down"></i>
+          </button>
+        </div>
+        <!-- ui-element end -->
+
+        <!-- ui-element start -->
+        <div class="ui-element -bottom-right js-ui">
+          <div class="ui-element__social text-dark js-bottom-left-links">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+          </div>
+        </div>
+        <!-- ui-element end -->
+      </section>
+
+      <section data-parallax="0.7" class="layout-pt-lg layout-pb-lg">
+        <div data-parallax-target class="overlay-black-md bg-image js-lazy" data-bg="img/general/bg2.png"></div>
+
+        <div class="container z-5">
+          <div class="row justify-content-center text-center">
+            <div class="col-12">
+
+              <h2 class="text-5xl sm:text-5xl xs:text-4xl leading-sm fw-700 text-white">
+                Past Research Programs
+              </h2>
+
+              <p class="text-xl md:text-lg text-white mt-16">
+                Falcon Academy of Sciences launched its first flagship program on August 2022 named "Summer Research Program 2022"
+              </p>
+
+              <a href="research.html" class="button -md -white text-black mt-32">
+                Know More
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- section start -->
+      <section id="aboutId" class="layout-pt-xl layout-pb-xl">
+        <!-- container start -->
+        <div class="container">
+
+          <!-- row start -->
+          <div class="row">
+            <div class="col-xl-5 col-lg-8 col-md-10">
+              <div class="sectionHeading -lg">
+                <p class="sectionHeading__subtitle">
+                  facts
+                </p>
+                <h2 class="sectionHeading__title ">
+                  4 Facts we believe
+                </h2>
+              </div>
+            </div>
+          </div>
+          <!-- row end -->
+
+
+          <!-- row start -->
+          <div class="row x-gap-60 y-gap-48 layout-pt-md">
+            <div class="col-lg-6 col-md-6">
+              <div class="">
+                <h4 class="text-xl fw-600">
+                  1. Bangladeshi students are awesome
+                </h4>
+                <p class="mt-16">
+                  Bangladeshi teenagers have always proved themselves by doing amazing things: from winning IMO Gold
+                  Medals to becoming FIDE master at the age of 10- we have a lot. Falcon Academy of Sciences wants to
+                  provide STEM enthusiasts a highly organized system to succeed in completing complex real life research
+                  works, starting from as early as from highschool!
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6">
+              <div class="">
+                <h4 class="text-xl fw-600">
+                  2. But they are still challenged by research fundamentals and skills
+                </h4>
+                <p class="mt-16">
+                  Falcon Academy of Sciences will prepare students for research by training them up with relevant skill
+                  sets and subsequent testing via short assignments. We believe in improving rather than ranting.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row x-gap-60 y-gap-48 layout-pt-md">
+
+            <div class="col-lg-6 col-md-6">
+              <div class="">
+                <h4 class="text-xl fw-600">
+                  3. Affordability is the key barrier to discover wonders
+                </h4>
+                <p class="mt-16">
+                  We often fail to live by heavy dreams owing to the involvement of finances. However, Falcon promises
+                  to change the scenario for research from now on.. We have been able to secure ample fundings and are
+                  looking for more- these all to make research affordable for you to access. We want to hone your
+                  interest first in research, and not get bogged down by financial hurdles. The usual price of a summer
+                  research program varies from 1,500-7,500 USD, whereas, we are bringing it all to you within 3499 BDT.
+                  And that’s not it! If that amount is still a badger, you are welcome to apply for our financial aid by
+                  submitting verified financial documents.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6">
+              <div class="">
+                <h4 class="text-xl fw-600">
+                  4. Researchers are rarely idolized
+                </h4>
+                <p class="mt-16">
+                  We all once dreamt of becoming Einstein - a story from a very distant past. Remember what else we
+                  dreamt with that? Chocolate seller- Yes, that’s how early it is. As we grew, we were hardly introduced
+                  to our own country’s Einsteins: all those Bangladeshi pioneers and researchers who revolutionized
+                  sectors of science.
+
+                  Falcon aims to turn the tide.
+                </p>
+              </div>
+            </div>
+
+          </div>
+          <!-- row end -->
+
+        </div>
+        <!-- container end -->
+      </section>
+      <!-- section end -->
+
+      <!-- section start -->
+      <section class="layout-pt-md layout-pb-lg border-bottom-dark">
+        
+        <div class="container">
+        
+          <div class="row">
+            <div class="col-12">
+              <div class="sectionHeading -lg text-center">
+                <p class="sectionHeading__subtitle">
+                  Research
+                </p>
+                <h2 class="sectionHeading__title ">
+                  Program Flowchart
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section id="cd-timeline" class="cd-container container">
+          <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture">
+            </div> 
+  
+            <div data-parallax="0.7" class="cd-timeline-content">
+              <div data-parallax-target class="bg-image js-lazy" data-bg="img/general/bg3.png"></div>
+              <h2>1. BASIC RESEARCH TRAINING</h2>
+              <p>In this first part of research
+                program, students learn
+                fundamental skills and knowledge
+                about research. They also complete
+                related software, brainstorming,
+                and literature review training here.
+                </p>
+            </div> <!-- cd-timeline-content -->
+          </div> <!-- cd-timeline-block -->
+      
+          <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-movie">
+            </div> <!-- cd-timeline-img -->
+      
+            <div data-parallax="0.7" class="cd-timeline-content">
+              <div data-parallax-target class="bg-image js-lazy" data-bg="img/general/bg3.png"></div>
+              <h2>2. SUBJECT SPECIFIC TRAINING</h2>
+              <p>Here students come to know in
+                detail about the resources of their
+                chosen subjects in FAS, complete more subject specific software
+                training, spot their theoretical
+                lacking, finalize their research idea.
+                </p>
+            </div> <!-- cd-timeline-content -->
+          </div> <!-- cd-timeline-block -->
+      
+          <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture">
+            </div> <!-- cd-timeline-img -->
+      
+            <div data-parallax="0.7" class="cd-timeline-content">
+              <div data-parallax-target class="bg-image js-lazy" data-bg="img/general/bg3.png"></div>
+              <h2>3. RESEARCH JOURNEY</h2>
+              <p>Here students sit one-to-one with
+                their peers and mentors, creates
+                their project proposal, finalize their
+                research, and complete it using
+                external or internal resources. This is
+                the longest and difficult-most part.
+                </p>
+            </div> <!-- cd-timeline-content -->
+          </div> <!-- cd-timeline-block -->
+      
+          <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-location">
+            </div> <!-- cd-timeline-img -->
+      
+            <div data-parallax="0.7" class="cd-timeline-content">
+              <div data-parallax-target class="bg-image js-lazy" data-bg="img/general/bg3.png"></div>
+              <h2>4. PUBLICATION</h2>
+              <p>In this final stage, student learns
+                about paper writing, journal
+                selection, paper submission,
+                formatting, and many more. They
+                also start attending conferences
+                and competition before this
+                process starts. SRP ends with a
+                farewell ceremony.
+                </p>
+            </div> <!-- cd-timeline-content -->
+          </div> <!-- cd-timeline-block -->
+      
+        </section> <!-- cd-timeline -->
+      </section>
+
+
+      <!-- section start -->
+      <section class="layout-pt-md layout-pb-lg border-bottom-dark">
+        <!-- container start -->
+        <div class="container">
+
+          <!-- row start -->
+          <div class="row">
+            <div class="col-xl-7 col-lg-9">
+              <div class="sectionHeading -lg">
+                <p class="sectionHeading__subtitle">
+                  benefits
+                </p>
+                <h2 style="font-size: 3.5rem;" class="sectionHeading__title">
+                  GENERAL BENEFITS OF JOINING FAS PROGRAMS
+                </h2>
+              </div>
+            </div>
+          </div>
+          <!-- row end -->
+
+          <div class="row x-gap-30 y-gap-48 layout-pt-md">
+            <div class="col-lg-3 col-md-6">
+              <div class="">
+                <h4 class="text-xl fw-600">
+                  1. More than one publication in a popular and impactful journal
+                </h4>
+                <!-- <p class="mt-16">
+                  Research team of Falcon Academy of Sciences are copiously credible to assist you in figuring out
+                      what categories of paper are suitable for which specific journal and their required structure.
+                </p> -->
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="">
+                <h4 class="text-xl fw-600">
+                  2. Amazing opportunities for original research
+                </h4>
+                <!-- <p class="mt-16">
+                  Laboratory access, professor/experienced researchers’ mentorship, Research fund and more!
+                </p> -->
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="">
+                <h4 class="text-xl fw-600">
+                  3. Opportunities to attend international academic and research conferences
+                </h4>
+                <!-- <p class="mt-16">
+                  FAS will tailor your application in suitable best fit conferences and prepare you to win awards.
+                      We have skilled information researchers and application experts who will be working to make this
+                      possible for you.
+                </p> -->
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="">
+                <h4 class="text-xl fw-600">
+                  4. Personal Mentorship from experienced researcher
+                </h4>
+                <!-- <p class="mt-16">
+                  You will be assigned to a mentor or a coordinator to sit on recurring one-to-one sessions
+                </p> -->
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="">
+                <h4 class="text-xl fw-600">
+                  5. Access to Falcon’'s resources
+                </h4>
+                <!-- <p class="mt-16">
+                  Falcon has gathered amazing datasets including public health records of both Bangladesh and the
+                      USA, infrastructural record, climate records, etc.
+                      For a subject specific example, in Astrophysics, you will get Tabby’s data, Sunshine by City,
+                      Future Asteroids, Five Millenium catalogs, HYG Star, National Space Science Data Center Master
+                      Catalog, NASA Heliophysics Data, Planetary Data System, Exoplanet Archive, The Astrobiology
+                      Habitable Environments Database (AHED), Life Science Data Archive, and the list goes on!
+                </p> -->
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="">
+                <h4 class="text-xl fw-600">
+                  6. Remote laboratory access
+                </h4>
+                <!-- <p class="mt-16">
+                  We have remote laboratories (and also on our way to expand partnerships) in the USA and Canada in
+                      order to help you out with non conventional research.
+                </p> -->
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="">
+                <h4 class="text-xl fw-600">
+                  7. Amazing Cohort
+                </h4>
+                <!-- <p class="mt-16">
+                  Falcon Academy of Sciences will be always buzzing with both aspiring enthusiasts and accomplished researchers. They will be the country’s best STEM loving youth, undoubtedly one day growing to be research torch bearers. You will get to socialize with students and professors from in and outside the country, and some will even be nominees of the Nobel Prize!
+                </p> -->
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="">
+                <h4 class="text-xl fw-600">
+                  8. Mentoring Center
+                </h4>
+                <!-- <p class="mt-16">
+                  There will be representatives to walk you through your personal journey: abroad applications, competition preparation, productivity advice, opportunity stream, and many more!
+                </p> -->
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <!-- container end -->
+      </section>
+      <!-- section end -->
+      
+
+      <!-- section start -->
+      <section class="container">
+        <h3 style="margin-bottom: 1rem;">
+          Course Fee
+        </h3>
+        <p>
+          The Summer Research Program of Falcon Academy of Sciences costs <b>3500 BDT</b>. As we mentioned earlier, the usual price of the Summer Research Program usually varies from 1500-7500 USD, but our mission is to make research popular and accessible in Bangladesh. If you still need financial assistance, you can <b>apply for financial aid</b> via our SRP participant’s Query form with required documents.
+        </p>
+        <br>
+        <h3>
+          Scholarships
+        </h3>
+
+        <div data-anim-wrap class="row x-gap-60 y-gap-48">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="serviceCard">
+              <div class="serviceCard__content">
+
+                <h3 class="serviceCard__title text-2xl fw-500 tacking-none mt-32">
+                  Abul Basher Memorial Scholarship
+                </h3>
+
+                <p class="serviceCard__text mt-16">
+                  A need-based scholarship we will be providing which can cover from 5% to 100% exclusive to researchers from outside of Dhaka
+                </p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="serviceCard">
+              <div class="serviceCard__content">
+
+                <h3 class="serviceCard__title text-2xl fw-500 tacking-none mt-32">
+                  Women in Science Scholarship
+                </h3>
+
+                <p class="serviceCard__text mt-16">
+                  Fifty percent of our female researchers will qualify for needbased scholarships starting from 10% to 50%.
+                </p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="serviceCard">
+              <div class="serviceCard__content">
+
+                <h3 class="serviceCard__title text-2xl fw-500 tacking-none mt-32">
+                  Partnership Scholarships
+                </h3>
+
+                <p class="serviceCard__text mt-16">
+                  Participants affiliated with our partner organizations, schools, colleges, and universities will be eligible for a limited amount of fully-funded scholarships and need-based waivers
+                </p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="serviceCard">
+              <div class="serviceCard__content">
+                <h3 class="serviceCard__title text-2xl fw-500 tacking-none mt-32">
+                  Falcon Event Prizes
+                </h3>
+
+                <p class="serviceCard__text mt-16">
+                  The prize winners of the events sponsored by the Falcon Academy of Sciences will qualify for both fully funded scholarships and need-based waivers.
+                </p>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <br>
+        <h3 style="margin-bottom: 1rem;">
+          Mentors
+        </h3>
+        <p>
+          For your one-to-one mentorship, you will be assigned to an experienced researcher
+        or a PhD candidate to guide you in your journey. When needed and ready, you will
+        sit in meetings with your department’s professors. We will connect you with a
+        mentor and professor who will be the best fit for you.
+        </p>
+        <br>
+        <h3 style="margin-bottom: 1rem;">
+          Discussion on Resources
+        </h3>
+        <p>
+          The strongest academic suits of Summer Research Program 2022’s are
+        Mathematics, Social Science, Astronomy, Biology, Chemistry, Physics, and
+        Computer Science (in order).
+        </p>
+        <br>
+        <p>
+          In the case of <b>Mathematics</b>, the focus points will be Number Theory, Combinatorial
+        Games, and Statistics. The faculty has decided to sketch out a set of 40 specific
+        problems (From open problems, generalizations, and extensions of some magazine
+        problems). However, Falcon also has well-thought resources and guidelines for
+        more than hundred problems, and students can explore them as well. 
+        </p>
+        <br>
+        <p>
+          In the case of <b>Social Science</b>, we will be especially relying upon primary data points
+        from our 20 partner organizations and our cohort’s connections that will ultimately
+        help us to gather the primary datasets for SRP 2022. As per secondary datasets, we
+        are planning to work on some open Psychology related disease, personality,
+        identity, and relation based dataset. Students who are interested in international
+        relations and political science will be assisted and trained in a distinct manner.
+        Other sectors are welcomed to be explored as well, but the aforementioned topics
+        are most likely going to be the forte of SRP 2022.
+        </p>
+        <br>
+        <p>
+          For <b>Biology</b> research, our focus will be on utilizing public health dataset (of
+        Bangladesh and the US), disease-sets (such as parkinson’s), environmental sets
+        (marine and mammals), and virology. We are also planning to work on Human DNA
+        and Neuroscience, if participants sign up for an adventure!
+        </p>
+        <br>
+        <p>
+          In <b>Astronomy</b>, we want to exploit our access to remote telescopes, pulsar datasets,
+        Planetary Data System, Exoplanet archive, Life Science archive, and many more.
+        Student researchers interested in theoretical astrophysics can also work along with
+        the professors. 
+        </p>
+        <br>
+        <b>
+          Let’s not overwhelm you any more with all of these before SRP starts! We are
+        excited for you to join us and make the best of what Falcon has to offer!
+        </b>
+      </section>
+      <!-- section end -->
+
+
+      <section data-parallax="0.7" class="layout-pt-lg layout-pb-lg mt-48">
+        <div data-parallax-target class="overlay-black-md bg-image js-lazy" data-bg="img/general/bg3.png"></div>
+
+        <div class="container z-5">
+          <div class="row justify-content-center text-center">
+            <div class="col-12">
+              <p class="text-sm uppercase tracking-lg text-white mb-20">
+                Contact us
+              </p>
+
+              <h2 class="text-5xl sm:text-5xl xs:text-4xl leading-sm fw-700 text-white">
+                Have a research idea of your own?
+              </h2>
+
+              <p class="text-xl md:text-lg text-white mt-16">
+                Small or big, we've got you covered!
+              </p>
+
+              <a href="contact.html" class="button -md -white text-black mt-32">
+                Get in Touch
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section end -->
+
+
+      <!-- footer start -->
+      <footer class="footer -type-2 bg-white">
+        <!-- container start -->
+        <div class="container">
+          <!-- row start -->
+          <div class="row">
+            <div class="col-auto">
+              <h5 class="text-base fw-400 text-dark">Follow Us</h5>
+              <div class="footer__social text-black fw-500 mt-24 sm:mt-12">
+                <a href="#">Facebook</a>
+                <a href="#">Linkedin</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+              </div>
+            </div>
+          </div>
+          <!-- row end -->
+
+          <!-- row start -->
+          <div class="row">
+            <div class="col-auto">
+              <p class="footer__text text-lg md:text-base">
+                Want to get in touch? Here is our email:
+              </p>
+
+              <a href="mailto:info@falconacademyofsciences.com" class="footer__link text-3xl md:text-2xl xs:text-l button -underline fw-700 text-black mt-20">
+                info@falconacademyofsciences.com
+              </a>
+            </div>
+          </div>
+          <!-- row end -->
+
+          <!-- row start -->
+          <div class="row">
+            <div class="col-auto">
+              <div class="footer__copyright">
+                <p class="text-sm">
+                  @ 2022, Falcon Academy of Sciences
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- row end -->
+
+          <!-- shapes start -->
+          <div class="footer__shapes">
+            <div></div>
+            <div></div>
+          </div>
+          <!-- shapes end -->
+        </div>
+        <!-- container end -->
+      </footer>
+      <!-- footer end -->
+
+
+    </main>
+
+  </div>
+  <!-- barba container end -->
+
+
+  <!-- JavaScript -->
+  <script src="js/vendors.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
